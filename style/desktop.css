@@ -1,1 +1,62 @@
+.windows{
+	width: 100%;
+	height: 100%;
 
+}
+
+/**
+ * Taskbar
+ */
+.windows .taskbar{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #474747;
+	height: 40px;
+}
+
+.windows .taskbar .start{
+	width: 45px;
+	height: 100%;
+	left: 0;
+	color: white;
+	text-align: center;
+	font-size: 25pt;
+	font-weight: bold;
+}
+
+.windows .taskbar .start:hover{
+	color: #429ce3;
+	background: #4f5153;
+}
+
+.windows .taskbar .pin{
+	float: left;
+}
+
+/**
+ * Start menu
+ */
+.windows .desktop .start-side{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: #474747;
+	opacity: .9;
+	height: 500px;
+	width: 500px;
+	display: none;
+}
+
+/**
+ * Desktop
+ */
+.windows .desktop{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 40;
+	background: url(../img/wallpaper01.jpg) no-repeat center center fixed;
+}
