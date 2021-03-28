@@ -16,7 +16,7 @@
 	height: 40px;
 }
 
-.windows .taskbar .start{
+.windows .taskbar .start, .windows .taskbar .pin{
 	width: 45px;
 	height: 100%;
 	left: 0;
