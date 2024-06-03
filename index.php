@@ -9,7 +9,7 @@
 	</div>
 	<div class="desktop">
 		<div id="start-side" class="start-side">
-			
+			Nội dung của windows
 		</div>		
 	</div>
 </div>
